@@ -86,9 +86,6 @@
 input[type="search"] {
   -webkit-appearance: none;
 }
-
-
-
 footer {
   position:absolute;
   width: 100%;
@@ -96,7 +93,7 @@ footer {
     background: black;
     text-align: center;
     height: 100px; 
-    margin-top: 116px;
+    margin-top: 303px;
 
 }
 footer a{
@@ -138,103 +135,45 @@ margin-left:940px;
   margin-left: 1250px;
 }
 
-.wrap{
-  width: 485px;
+
+.HowItWork{
+position: absolute;
+margin-left: 780px;
+
 }
 
-.left{
+.Zagolovku{
+position: absolute;
+margin-top: 150px;
+margin-left: 300px;
+color:green;
+
+
+}
+
+.P{
   position: absolute;
-  margin-top: 300px;
-  margin-left: 3px;
-    width: 100px;
-    background-color: white;
-    height: 123px;
+  margin-left: 260px;
+  margin-top: 200px;
 }
-
-.tile-image{
- width: 41px;
+.step{
+  position: absolute;
+  margin-top: 130px;
+  margin-left: 700px;
   
-
+}
+.P1{
+  position: absolute;
+  margin-left: 260px;
+  margin-top: 280px;
 }
 
-a{
-  color: black;
+.P2{
+  position: absolute;
+  margin-top: 370px;
+  margin-left: 260px;
 }
-
-
-.FirstElement{
-  position: absolute;
-  margin-left: 390px;
-  margin-top: 100px;
-}
-
-
- .Element2{
-  position: absolute;
-  margin-left: 390px;
-  margin-top: 180px;
- }
-
- .Element3{
-  position: absolute;
-  margin-left: 690px;
-  margin-top: 100px;
- }
-
- .Element4{
-  position: absolute;
-  margin-left: 690px;
-  margin-top: 180px;
- }
-
- .Element5{
-  position: absolute;
-  margin-top: 100px;
-  margin-left: 990px;
- }
-
- .Element6{
-  position: absolute;
-  margin-top: 180px;
-  margin-left: 990px;
- }
-
- .Element7{
-  position: absolute;
-  margin-top: 100px;
-  margin-left: 1320px;
-
- }
-
- .Element8{
-  position: absolute;
-  margin-top: 180px;
-  margin-left: 1320px;
-
- }
-
- .Foto{
-  position: relative;
-  width: 800px;
-  margin-top: 30px;
-  margin-left: 500px;
-
-
-
- }
  .line{
   position:relative;
-  margin-top: 270px;
-
- }
-
- .instruktor{
-  position: absolute;
-  margin-left: 380px;
-  margin-top: 20px;
- }
- 
-  
-  
- 
-
+  margin-top: 500px;
+  color:black;

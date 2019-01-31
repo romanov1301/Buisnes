@@ -86,9 +86,6 @@
 input[type="search"] {
   -webkit-appearance: none;
 }
-
-
-
 footer {
   position:absolute;
   width: 100%;
@@ -96,7 +93,7 @@ footer {
     background: black;
     text-align: center;
     height: 100px; 
-    margin-top: 116px;
+    margin-top: 800px;
 
 }
 footer a{
@@ -156,85 +153,116 @@ margin-left:940px;
   
 
 }
-
-a{
-  color: black;
+.foto{
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 400px;
+}
+.dws-menu*{
+margin: 0;
+padding: 0;
 }
 
-
-.FirstElement{
+.dws-menu{
   position: absolute;
-  margin-left: 390px;
-  margin-top: 100px;
+  margin-left: 750px;
+  margin-top: 80px;
+
+}
+.dws-menu ul li{
+  list-style: none;
+
 }
 
+.dws-menu > ul{
+ display: flex;
+ justify-content: center;
+} 
 
- .Element2{
-  position: absolute;
-  margin-left: 390px;
-  margin-top: 180px;
- }
+.dws-menu > ul li a{
+ display: block;
+ background: #ececed;
+ padding: 15px 30px 15px 40px;
+ font-size: 14px;
+ color: #454547;
+ text-decoration: none;
+ text-transform:uppercase;
+ transition: all 0.3s ease;
+} 
 
- .Element3{
-  position: absolute;
-  margin-left: 690px;
-  margin-top: 100px;
- }
-
- .Element4{
-  position: absolute;
-  margin-left: 690px;
-  margin-top: 180px;
- }
-
- .Element5{
-  position: absolute;
-  margin-top: 100px;
-  margin-left: 990px;
- }
-
- .Element6{
-  position: absolute;
-  margin-top: 180px;
-  margin-left: 990px;
- }
-
- .Element7{
-  position: absolute;
-  margin-top: 100px;
-  margin-left: 1320px;
-
- }
-
- .Element8{
-  position: absolute;
-  margin-top: 180px;
-  margin-left: 1320px;
-
- }
-
- .Foto{
+.dws-menu > ul li{
   position: relative;
-  width: 800px;
-  margin-top: 30px;
-  margin-left: 500px;
+  border-right: 1px solid #c7c8ca;
+}
+
+.dws-menu > ul li > a i.fa{
+ position: absolute;
+ top: 15px;
+ left: 12px;
+ font-size: 18px;
+} 
+
+.dws-menu > ul li:first-child{
+ border-left: 1px solid #b2b3b5;
+}
+.dws-menu > ul li:last-child{
+ border-right: 1px solid #babbbd;
+}
 
 
 
- }
- .line{
-  position:relative;
-  margin-top: 270px;
+.dws-menu li a:hover{
+ background: #454547;
+ color: #ffffff;
+ box-shadow: 1px 5px 10px -5px black;
+ transition: all 0.3s ease;
+} 
 
- }
+.dws-menu li ul{
+ position: absolute;
+ min-width: 150px;
+} 
 
- .instruktor{
+.dws-menu li > ul li{
+ border: 1px solid #c7c8ca;
+}  
+
+.dws-menu li > ul li a{
+ padding: 10px;
+ text-transform: none;
+ background: #e4e4e5;
+} 
+.dws-menu li > ul li ul{
+ position: absolute;
+ right: -150px;
+ top: 0;
+} 
+.dws-menu li ul{
+ position: absolute;
+ min-width: 150px;
+ display: none;
+} 
+.dws-menu li:hover > ul{
+ display: block;
+} 
+
+.instruktor{
   position: absolute;
-  margin-left: 380px;
-  margin-top: 20px;
+  margin-left: 470px;
+  margin-top: 740px;
  }
- 
-  
-  
- 
+
+  .line{
+  position:absolute;
+  margin-top: 710px;
+  margin-left:340px;
+
+}
+
+.user{
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 1350px;
+  height: 50px;
+}
 
