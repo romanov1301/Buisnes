@@ -1,0 +1,254 @@
+.logo{
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  margin-left:380px;
+  margin-top: 0px;
+}
+
+
+
+
+footer {
+  position:relative;
+  width: 100%;
+    height: auto;
+    background: black;
+    text-align: center;
+    height: 100px; 
+    margin-top: 0px;
+
+}
+footer a{
+    color: white;
+    font-size: 15px;
+    margin-left: 20px;
+    position:relative;
+    margin-bottom:auto;
+
+}
+footer nav a:hover{
+    border-bottom: 1px solid white;
+}
+.social img{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+footer p{
+    color: white;
+}
+.display-5{
+  position: absolute;
+  margin-left: 380px;
+  margin-top: 150px;
+}
+
+.star{
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 380px;
+}
+.form-control-file{
+  position: absolute;
+  margin-left: 380px;
+  margin-top: 200px;
+}
+
+.point-menu{
+  position: absolute;
+  margin-top: 185px;
+  margin-left: 650px;
+}
+.dws-menu*{
+margin: 0;
+padding: 0;
+}
+
+.dws-menu{
+  position: absolute;
+  margin-left: 376px;
+  margin-top: 10px;
+
+}
+.dws-menu ul li{
+  list-style: none;
+
+}
+
+.dws-menu > ul{
+ display: flex;
+ justify-content: center;
+} 
+
+.dws-menu > ul li a{
+ display: block;
+ background: #ececed;
+ padding: 15px 30px 15px 40px;
+ font-size: 14px;
+ color: #454547;
+ text-decoration: none;
+ text-transform:uppercase;
+ transition: all 0.3s ease;
+} 
+
+.dws-menu > ul li{
+  position: relative;
+  border-right: 1px solid #c7c8ca;
+}
+
+.dws-menu > ul li > a i.fa{
+ position: absolute;
+ top: 15px;
+ left: 12px;
+ font-size: 18px;
+} 
+
+.dws-menu > ul li:first-child{
+ border-left: 1px solid #b2b3b5;
+}
+.dws-menu > ul li:last-child{
+ border-right: 1px solid #babbbd;
+}
+
+
+
+.dws-menu li a:hover{
+ background: #454547;
+ color: #ffffff;
+ box-shadow: 1px 5px 10px -5px black;
+ transition: all 0.3s ease;
+} 
+
+.dws-menu li ul{
+ position: absolute;
+ min-width: 150px;
+} 
+
+.dws-menu li > ul li{
+ border: 1px solid #c7c8ca;
+}  
+
+.dws-menu li > ul li a{
+ padding: 10px;
+ text-transform: none;
+ background: #e4e4e5;
+} 
+.dws-menu li > ul li ul{
+ position: absolute;
+ right: -150px;
+ top: 0;
+} 
+.dws-menu li ul{
+ position: absolute;
+ min-width: 150px;
+ display: none;
+} 
+.dws-menu li:hover > ul{
+ display: block;
+} 
+
+.dws-menu{
+  position: absolute;
+  margin-left: 625px;
+  margin-top: 220px;
+}
+
+.NickName{
+  position: absolute;
+  margin-top:25px;
+  margin-left: 1230px;
+}
+
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+/* Month header */
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #1abc9c;
+  text-align: center;
+  margin-top: 430px;
+}
+
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color:#ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}
+
+.status{
+  position: absolute;
+  margin-top: 105px;
+  margin-left: 750px;
+}
+
+.money{
+  position: absolute;
+  margin-top: 105px;
+  margin-left: 1300px;
+
+}
+
+ 
+  
+  
+ 
+

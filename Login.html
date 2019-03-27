@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="Login.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+     
+  </head>
+  <body>
+
+     <script type="text/javascript">
+    function validate(form){
+      var fail=false;
+      var userName=form.userName.value;
+      var userPassword=form.userPassword.value;
+      if (userName==""||userName==" ")
+        fail="InKorectLogin";
+      else if (userPassword==""|| userPassword=" ")
+        fail="InKorectPassword";
+      if (fail)
+        alert(fail);
+      else  
+        window.location="https://www.google.com";
+
+
+    </script>
+    <div class="login-form">
+    <form  action="" method="post" name="Login" id="form">
+      <h1>Welcome</h1>
+      <label for=userName></label>
+      <input class="txtb" type="text" name="userName" placeholder="login"id=userName><br><br>
+      <label for="userPassword"></label>
+      <input class="txtb" type="Password" name="Password" placeholder="password"id=userPassword><br><br>
+      <input class="login-btn" type="button" onclick="valid(document.getElementById('form'))" name="submit" value="Submit">
+    </form>
+  </div>
+  </body>
+</html>
